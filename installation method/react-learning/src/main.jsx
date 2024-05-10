@@ -19,21 +19,24 @@ function Myapp(){
 //     Children: 'click me to visit google'
 // }
 
-const anotherElement = (
-    <a href="https//google.com" tager="_blank">visit google</a>
-)
+// const anotherElement = (
+//     <a href="https//google.com" tager="_blank">visit google</a>
+// )
+
+const anotherUser = ("chai or react")
 
 const ReactElement = React.createElement(
     'a',
     { href: 'https//google.com', target: '_blank'}, 
-    'click me to see google'
+    'click me to see google',
+    anotherUser
 )
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   
     
     // anotherElement
-    ReactElement
-   
-  
+    ReactElement,
+    // anotherElement,
+        App
 )

@@ -6,7 +6,8 @@ function App() {
  return (
   <>
   <Chai/>
-  {username}
+  <h1>chai or react {username}</h1>
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel, consectetur.</p>
   </>
  )
 }
