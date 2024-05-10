@@ -2,19 +2,30 @@ import { useState } from 'react'
 import './App.css'
 
 function App() {
+  const [counter, setcounter] = useState(15);
 
- let [counter, setcounter] = useState (15)
-  
-  // let counter = 15
+  // const addvalue = () => {
+  //   if (counter < 20) {
+  //     setcounter(counter + 1);
+  //   }
+  // }
 
+  // const removeValue = () => {
+  //   if (counter > 0) {
+  //     setcounter(counter - 1);
+  //   }
   const addvalue = () => {
-    // console.log("clicked", counter),
-    counter = counter + 1
-    setcounter(counter)
+    if (counter < 20){
+      setcounter(counter + 1);
+    }
   }
-  const removeValue = () => {
-  setcounter(counter - 1)
-  }
+    const removeValue = () => {
+      if (counter > 0) {
+        setcounter(counter - 1);
+      }
+    }
+ 
+  
   return (
     <>
     <h1>chai our react</h1>
