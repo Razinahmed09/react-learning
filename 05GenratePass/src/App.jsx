@@ -13,7 +13,7 @@ function App() {
     if (number) str += "123456789"
     if (charactar) str += "!@#$%^&*(){}"
 
-    for (let i = 0; i <= array.length; index++) {
+    for (let i = 0; i <= array.length; i++) {
       const element = array[index];
       
     }
