@@ -19,7 +19,7 @@ function App() {
     }
 
 
-  },[lengthnumber, charactar, Password])
+  },[length, number, charactar, Password])
 
 
 
