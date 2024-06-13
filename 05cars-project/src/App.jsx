@@ -6,7 +6,26 @@ function App() {
 
   return (
     <>
-      <h1>hello world</h1>
+            
+      <div>
+        <nav className='flex justify-around py-2'>
+          <div>
+            <img 
+            src="/img/brand_logo.png"
+            alt="" />
+          </div>
+          
+            <ul className='flex gap-3'> 
+              <li href="#">home</li>
+              <li href="#">About</li>
+              <li href="#">Gallery </li>
+              <li href="#">Contact Us</li>
+            </ul>
+          <button className='bg-red-600 text-white rounded-full py-2 px-4'>
+            login
+          </button>
+        </nav>
+      </div>
         
     </>
   )
