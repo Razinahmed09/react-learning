@@ -1,7 +1,9 @@
 const Contact_form = () => {
     return (
-        <section>
-        
+        <section className="Container">
+            <div className="Form bg-red-900">
+            <Form_button />
+            </div>
         </section>
         );
 };

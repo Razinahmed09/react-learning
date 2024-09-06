@@ -5,7 +5,7 @@ const Nav = () => {
         <div>
         <a href="#" className="w-12">
               <img
-                src="../../public/img/Header.png"
+                src="/img/Header.png"
                 alt="logo-img"
                 className="w-auto "
               />
