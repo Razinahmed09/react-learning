@@ -10,13 +10,15 @@ const Contact_form = () => {
         <div className="w-[50%]">
           <div className="flex gap-5">
             <Form_button
+            isOutline={false}
              text="VIA SUPPORT CHAT"
              icon={<MdMessage />} />
             <Form_button
+            isOutline={false}
              text="VIA Call Now"
              icon={<MdCall />} />
           </div>
-          <div className="w-100% pt-8">
+          <div className=" pt-8">
             <Form_button
             isOutline={true}
             text="VIA EMAIL FORM"
