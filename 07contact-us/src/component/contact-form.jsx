@@ -1,4 +1,5 @@
 import Form_button from "./Form_button";
+import Form_input from "./form_input";
 import { MdMessage } from "react-icons/md";
 import { MdCall } from "react-icons/md";
 import { IoIosMail } from "react-icons/io";
@@ -18,13 +19,22 @@ const Contact_form = () => {
              text="VIA Call Now"
              icon={<MdCall />} />
           </div>
-          <div className=" pt-8">
+          <div className=" pt-8 pb-8">
             <Form_button
             isOutline={true}
             text="VIA EMAIL FORM"
             icon={<IoIosMail />} />
           </div>
           {/* <Form_button /> */}
+         <Form_input 
+         place-holder="hello"
+         />
+          <div className=" pt-8 pb-8">
+            <Form_button
+            isOutline={false}
+            text="Submit"
+            icon={<IoIosMail />} />
+          </div>
         </div>
 
 
