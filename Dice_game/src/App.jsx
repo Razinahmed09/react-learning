@@ -19,4 +19,4 @@ color: white;
 // border: none;
 padding: 10px 20px;
 `;
-export default App
+export default App;
